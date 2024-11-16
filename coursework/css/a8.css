@@ -1,0 +1,93 @@
+body{
+    position:absolute;
+    background-image: url(../images/space.jpeg);
+}
+
+#earth{
+    position: relative;
+    left: -300px;
+    transform: scale(0%);
+    animation: moving-earth 8s ease-in-out 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moving-earth {
+    50% {
+        top: -20px;
+        left: 400px;
+        transform: scale(20%)
+    }
+    70% {
+        top: 0px;
+        left: 450px;
+        transform: scale(40%)
+    }
+    100% {
+        top: 90px;
+        left: 600px;
+        transform: scale(80%)
+    }
+}
+
+#sun{
+    position: relative;
+    left:-600px;
+    top:-100px;
+
+    transform: scale(50%);
+    transition: all 1s ease-in-out 0.2s;
+}
+
+#sun:hover {
+    transform: scale(100%);
+}
+
+#meteor{
+    position: absolute;
+    left: 300px;
+    top: -150px;;
+    transform: scale(0%);
+    image-orientation:flip;
+    animation: moving-meteor 6s ease-in-out 2s;
+    animation-fill-mode:backwards;
+}
+
+@keyframes moving-meteor {
+ 
+    50% {
+        top: -50px;
+        left: 600px;
+        transform: scale(45%)
+    }
+    100% {
+        top: 100px;
+        left: 1300px;
+        transform: scale(60%)
+    }
+}
+
+#planet{
+    position: relative;
+    top: -600px;
+    left: 300px;
+
+    transform: scale(40%);
+    transition: all 1s ease-in-out 0.2s;
+}
+
+#planet:hover {
+    transform: scale(100%);
+}
+
+#galaxy{
+    position: relative;
+    top: -1200px;
+    left: 600px;
+
+    transform: scale(30%);
+    transition: all 1s ease-in-out 0.2s;
+}
+
+#galaxy:hover {
+    transform: scale(80%);
+}
