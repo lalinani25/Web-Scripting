@@ -1,3 +1,95 @@
-h1{
+/* Global Reset for body and basic layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #050108e7, #33275cd5);
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     text-align: center;
+}
+
+
+
+h1 {
+
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* Main Section */
+main {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+#game-result {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Restart Button Styling */
+#restart-btn {
+    padding: 12px 30px;
+    font-size: 16px;
+    background-color: #956aaf;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Restart Button Hover Effects */
+#restart-btn:hover {
+    background-color: #664779;
+    transform: scale(1.05);
+}
+
+/* Restart Button Active Effect (when clicked) */
+#restart-btn:active {
+    background-color:#956aaf;
+    transform: scale(1);
+}
+
+/* Footer Styling */
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 20px;
+        width: 90%;
+    }
+
+    #restart-btn {
+        width: 100%;
+        font-size: 18px;
+        padding: 15px;
+    }
 }

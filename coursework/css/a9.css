@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
+
 
 #page {
     width: 100%;
@@ -36,10 +38,11 @@
     top: 0px;
     left: 0px;
     background-attachment: fixed;
-    background-size: 2000px;
-    transition: background-size 600ms, width 600ms, height 600ms;
+    background-size: 5000px;
+    transition: background-size 800ms, width 800ms, height 800ms;
     text-align: center;
 }
+
 
 
 #magnify {
@@ -58,5 +61,5 @@
 }
 
 #magnify:active {
-    background-size: 1100px;
+    background-size: 1430px;
 }

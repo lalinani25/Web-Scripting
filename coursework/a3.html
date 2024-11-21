@@ -3,37 +3,37 @@
 
 <head>
   <!-- CSS only -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
-    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/a3.css" rel="stylesheet" />
 </head>
 
 <body>
 
   <div class="container">
 
-    <h1>Assignment 3</h1>
+    <h1>CALCULATOR</h1>
 
     <form>
-      <legend for="input1">Enter an integer</legend>
-      <input type="number" id="input1">
+      <input type="number" id="input1" placeholder="Enter an integer">
 
-      <legend for="input2">Enter an integer</legend>
-      <input type="number" id="input2">
+    
+      <input type="number" id="input2" placeholder="Enter an integer">
 
-      <button type="button" id="computeSum">+</button>
-      <button type="button" id="computeSubtraction">-</button>
-      <button type="button" id="computeMultiplication">*</button>
-      <button type="button" id="computeDivision">/</button>
-      <button type="button" id="computeSqrt"><span>&radic;</span></button>
-      <button type="button" id="computePower">^</button>
+      <div class="btn-container">
+        <button type="button" id="computeSum">+</button>
+        <button type="button" id="computeSubtraction">-</button>
+        <button type="button" id="computeMultiplication">*</button>
+        <button type="button" id="computeDivision">/</button>
+        <button type="button" id="computeSqrt"><span>&radic;</span></button>
+        <button type="button" id="computePower">^</button>
+      </div>
 
-      <legend for="result">Result</legend>
-      <input type="number" id="result">
+      <legend for="result"></legend>
+      <input type="number" placeholder="Result" id="result" readonly>
 
     </form>
-
-
   </div>
+
   <script src="javascript/a3.js"></script>
 </body>
 

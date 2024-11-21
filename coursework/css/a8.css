@@ -81,7 +81,7 @@ body{
 
 #galaxy{
     position: relative;
-    top: -1200px;
+    top: -1000px;
     left: 600px;
 
     transform: scale(30%);

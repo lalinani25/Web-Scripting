@@ -4,12 +4,16 @@ html{
 
 body{
     background-color: rgb(231, 255, 190);
+    width: 100%;
+    overflow: hidden;
 }
 
 main{
     background-color: rgb(231, 255, 190);
-    display: table;
     position:relative;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: 40px;
     
 }
 
@@ -23,6 +27,9 @@ h1{
     text-align: center;
 }
 
+footer{
+    margin-left: -40px;
+}
 
 
 .initials{
