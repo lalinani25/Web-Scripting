@@ -36,6 +36,7 @@ var createScene = function () {
     scene.fogDensity = 0.003;
     scene.fogColor = new BABYLON.Color3(0.6, 0.6, 0.6);
 
+    //test comment
 
     addGroundAndSkybox(scene)
 
