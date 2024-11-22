@@ -1,6 +1,9 @@
-h1{
-    text-align: center;
+body{
+    background-color: rgb(0, 0, 0);
+    width: 100vh;
+    height: 100vh;
 }
+
 
 text {
     color: white;
@@ -59,4 +62,10 @@ text {
 #Italy{
     transform: translate(840px, 120px);
     font-size: 25px;
+}
+
+svg{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: white;
 }

@@ -51,7 +51,7 @@ var createScene = function () {
             mountain.scaling.y = 2
             mountain.scaling.z = 2
             mountain.position.y = 2;
-            mountain.position.x = -600;
+            mountain.position.x = -300;
             mountain.position.z = 100;
 
             let material = new B.StandardMaterial("texture1", scene);
